@@ -1,5 +1,6 @@
 // Strings in JS
 // Strings is a sequence of characters used to represent text.
+// string is immutable
 
 // creating strings
 let str = "Raduain Rimon!" // let str2 = 'Hello, Rimon!'
