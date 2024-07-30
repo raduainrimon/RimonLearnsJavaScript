@@ -1,0 +1,32 @@
+/* Styling for the h1 element */
+h1 {
+  color: royalblue;
+  background: lightgreen;
+  text-decoration: underline wavy limegreen;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Styling for the body element */
+body {
+  background-color: ghostwhite;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Styling for the button element */
+button {
+  background-color: blanchedalmond;
+  color: darkslategray;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Styling for the button hover state */
+button:hover {
+  background-color: lightcoral;
+  color: white;
+}
