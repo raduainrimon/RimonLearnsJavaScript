@@ -7,16 +7,14 @@
 
 // let us understand with an example
 let obj = {
-    item: "book",
-    price: 150,
+  item: "book",
+  price: 150,
 };
-console.log("the cost of",obj.item, "is",obj.price,"taka")
-console.log(`the cost of ${obj.item} is ${obj.price} taka`)
-
+console.log("the cost of", obj.item, "is", obj.price, "taka");
+console.log(`the cost of ${obj.item} is ${obj.price} taka`);
 
 // what is string interpolation
 // to create strings by doing substituition of placeholders
 // `string text $(expression) string text`
 // let str = `Rimon ${1+2+22}`
 // console.log(str)
-

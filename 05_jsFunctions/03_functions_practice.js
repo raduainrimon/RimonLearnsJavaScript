@@ -5,25 +5,29 @@ the number of vowels in the string
 */
 // using switch case
 function countVowels(msg) {
-    let vCount = 0
-    for (let i = 0; i < msg.length; i++) {
-        switch (msg[i]) {
-            case 'a': case 'A':
-            case 'e': case 'E':
-            case 'i': case 'I':
-            case 'o': case 'O':
-            case 'u': case 'U':
-                vCount++
-                break
-            default:
-                break; // Do nothing for non-vowel characters
-        }
+  let vCount = 0;
+  for (let i = 0; i < msg.length; i++) {
+    switch (msg[i]) {
+      case "a":
+      case "A":
+      case "e":
+      case "E":
+      case "i":
+      case "I":
+      case "o":
+      case "O":
+      case "u":
+      case "U":
+        vCount++;
+        break;
+      default:
+        break; // Do nothing for non-vowel characters
     }
-    return vCount
+  }
+  return vCount;
 }
 
-console.log(countVowels("rimOn rAduaIn"))
-
+console.log(countVowels("rimOn rAduaIn"));
 
 /*
 // using if conditional

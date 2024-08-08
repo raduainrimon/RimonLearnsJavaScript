@@ -3,22 +3,22 @@
 // Non-primitive: arrays,functions
 
 // string type
-firstName="raduain"; // variable(container)=firstName, data=Raduain; = assignment operator
-// console.log("firstName") 
-console.log(firstName)
-console.log(typeof firstName) // to log the type
+firstName = "raduain"; // variable(container)=firstName, data=Raduain; = assignment operator
+// console.log("firstName")
+console.log(firstName);
+console.log(typeof firstName); // to log the type
 
-raduain=7 // number type 
-console.log(raduain)
+raduain = 7; // number type
+console.log(raduain);
 
-x=null; // null type
-console.log(x)
+x = null; // null type
+console.log(x);
 
-y=undefined // undefined type
-console.log(undefined)
+y = undefined; // undefined type
+console.log(undefined);
 
-isStudent=true // boolean type
-console.log(isStudent)
+isStudent = true; // boolean type
+console.log(isStudent);
 
 /*
 ---Variable Rules---
@@ -38,58 +38,56 @@ console.log(isStudent)
 */
 
 // this is how we should declare variables in JS, not like above
-let math = "difficult"
-let chemistry = "easy"
-let physics ="rocket science/greek"
-console.log(math)
+let math = "difficult";
+let chemistry = "easy";
+let physics = "rocket science/greek";
+console.log(math);
 
-const PI=3.14
+const PI = 3.14;
 // PI=3.14 // cannot be re-declared/updated
-let r=2
-areaCircle=PI*r*r
-console.log(areaCircle)
+let r = 2;
+areaCircle = PI * r * r;
+console.log(areaCircle);
 
-var age = 25
-var age = 34 // redeclaration in var
-var age = 49 // redeclaration in var
-console.log(age)
+var age = 25;
+var age = 34; // redeclaration in var
+var age = 49; // redeclaration in var
+console.log(age);
 
-let ageN = 52
-ageN = 55 // no redeclaration in let
-ageN = 80 // no redeclaration in let
-console.log(ageN)
+let ageN = 52;
+ageN = 55; // no redeclaration in let
+ageN = 80; // no redeclaration in let
+console.log(ageN);
 
 // let variable can be unassigned but canst cannot
-let a
-console.log(a)
-a=5
-console.log(a)
+let a;
+console.log(a);
+a = 5;
+console.log(a);
 
 // const PI
 // PI=3
 // console.log(PI)
 
-
 // block scope variable let & const
-// similar variables but different output in different block 
+// similar variables but different output in different block
 {
-    let b=10
-    console.log(b)
+  let b = 10;
+  console.log(b);
 }
 {
-    let b=55
-    console.log(b)
+  let b = 55;
+  console.log(b);
 }
 
 // bigint data type
-let h=BigInt("589")
-console.log(h)
-console.log(typeof(h))
+let h = BigInt("589");
+console.log(h);
+console.log(typeof h);
 
 // symbol dat type
-let s = Symbol("JavaScript!")
-console.log(s)
-console.log(typeof(s))
+let s = Symbol("JavaScript!");
+console.log(s);
+console.log(typeof s);
 
-
-console.log("Congratulations!")
+console.log("Congratulations!");

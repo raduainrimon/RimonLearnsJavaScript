@@ -6,8 +6,8 @@
 --- VS code is a free & popular code editor by Microsoft.
 */
 console.log("Hello JavaScript (JS)!"); // semi-colon (;) is not mendatory
-console.log("I am Md. Raduain Hossain Rimon.")
-console.log("Congratulations!")
+console.log("I am Md. Raduain Hossain Rimon.");
+console.log("Congratulations!");
 
 /* 
 --- JavaScript is a Dynamically Typed language.

@@ -3,9 +3,9 @@
 // string is immutable
 
 // creating strings
-let str = "Raduain Rimon!" // let str2 = 'Hello, Rimon!'
-console.log(str) // printing string
-console.log(str.length) // to get string length
-console.log(str[1]) // to get the individual character
+let str = "Raduain Rimon!"; // let str2 = 'Hello, Rimon!'
+console.log(str); // printing string
+console.log(str.length); // to get string length
+console.log(str[1]); // to get the individual character
 
 // str[0], str[1], str[2] // string index(sing)/indices (plu)

@@ -1,17 +1,16 @@
 // let num = parseInt(prompt("Type a number (1-100): "))
-let num = prompt("Type a number (1-100): ")
+let num = prompt("Type a number (1-100): ");
 if (num >= 80 && num <= 100) {
-    console.log("A");
+  console.log("A");
 } else if (num >= 70 && num <= 79) {
-    console.log("B");
+  console.log("B");
 } else if (num >= 60 && num <= 69) {
-    console.log("C");
+  console.log("C");
 } else if (num >= 50 && num <= 59) {
-    console.log("D");
+  console.log("D");
 } else {
-    console.log("F");
+  console.log("F");
 }
-
 
 // let num = 79
 // let grade

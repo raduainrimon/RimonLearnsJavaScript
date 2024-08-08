@@ -2,12 +2,12 @@
 // modern JavaScript
 
 // sum function
-function  sum(a,b) {
-    return a+b
+function sum(a, b) {
+  return a + b;
 }
 
-let arrowSum =(a,b) => {
-    console.log(a+b)
-}
-console.log(arrowSum)
-arrowSum(4,5)
+let arrowSum = (a, b) => {
+  console.log(a + b);
+};
+console.log(arrowSum);
+arrowSum(4, 5);

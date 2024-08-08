@@ -1,9 +1,8 @@
 // Loops are used to execute a piece of code again and again
 
 // Q1: log "Bangladesh" 50 times
-for (let i=1; i<=50; i++)
-{
-    console.log("Bangladesh")
+for (let i = 1; i <= 50; i++) {
+  console.log("Bangladesh");
 }
 
 // // Q2: log summation of 1 to n numbers
@@ -23,11 +22,8 @@ for (let i=1; i<=50; i++)
 // for (let i=1; i<=5; i++){
 //     console.log("i =",i)
 // }
-// // console.log(i) 
+// // console.log(i)
 // /*
 // i won't be displayed because i is declared using let(block scope variable) inside for loop
 // if we want to use inside for loop then can use var (global scope variable)
 // */
-
-
-

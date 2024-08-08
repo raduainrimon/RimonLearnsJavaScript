@@ -1,30 +1,11 @@
-// let a = 25
-let a = 10
-
-if(a >= 18)
-{
-    console.log("you are eligible for voting")
+// driving license 'if' problem
+const age = 19;
+if (age >= 18) {
+  console.log(`Congrats! Rimon can start driving license 🚗`);
 }
 
-if(a < 18)
-    {
-        console.log("you are not eligible for voting")
-    }
-
-
-// let mode = "dark"
-// // let mode = "light"
-
-// if(mode === "dark")
-// {
-//     color = "black"
-//     // console.log(color)
+// const age = 19;
+// const isOldEnough = age >= 18; // true in this case
+// if (isOldEnough) {
+//   console.log(`Congrats! Rimon can start driving license 🚗`);
 // }
-
-// if(mode === "light")
-//     {
-//         color = "white"
-//         // console.log(color)
-//     }
-
-// console.log(color)
